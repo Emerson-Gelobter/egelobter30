@@ -1,0 +1,6 @@
+def getRandKrew():
+    keys = list(krewes.keys())
+    keyIndex = random.randint(0, len(keys)-1)
+    devos = krewes.get(keys[keyIndex])
+    devosIndex = random.randint(0, len(devos)-1)
+    return devos[devosIndex]
