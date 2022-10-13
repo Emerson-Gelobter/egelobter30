@@ -23,9 +23,9 @@ DISCO:
 QCC:
 0.What is flask
 1.To side page, away from route
-2.
-3.
-4.
+2. Prints on a webpage
+3. prints return 
+4. On a webpage
 5. In netlogo?
 ...
 INVESTIGATIVE APPROACH:
