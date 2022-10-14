@@ -1,4 +1,4 @@
-# Clyde 'Thluffy' Sinclair
+# Whole Lotta Coding: Prattay, Aden, Emerson
 # SoftDev
 # Oct 2022
 
