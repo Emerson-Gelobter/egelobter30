@@ -1,0 +1,14 @@
+Whole Lotta Coding: Prattay, Aden, Emerson
+SoftDev
+Oct 2022
+
+Notes:
+When opening the webpage of a file with extension:
+none -> download
+.txt -> displays contents on webpage
+.html -> displays contents on webpage
+.py -> displays contents on webpage
+.java -> download
+
+In order to see the contents of a webpage, you must first establish a connection between your server and the page. In the case of a python file, this can be done with the python3 <file>.py command in terminal.
+However, in this case how does running app.py establish a connection between the web browser and other files such as foo and foo.html, even though they're in a separate folder and different file types?
