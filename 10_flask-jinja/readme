@@ -1,13 +1,31 @@
-DISCO:
+Team Whole Lotta Coding: Prattay Dey, Emerson Gelobter, Aden Garbutt
+SoftDev
+K10 -- jinja
+2022-10-13
+time spent: 0.75 hr
 
-import render_template is the jinja engine which, hence its name, renders the templates we create
-"No hablo queso!" Prints in the root directory, as predicted
-the URL for the "test_tmplt" page will most likely be "/my_foist_template"
-first arg of render_template takes the template that we want to render
-following args are just vars in the template we want to pass in values for
+
+Q0: What will happen if you remove render_template from this line? (log your prediction before you pull the trigger...)
+    Prediction - Some type of error or failure to connect will show up when we are trying to connect to /my_foist_template
+
+Q1: Can all of your teammates confidently predict the URL to use to load this page?
+    Instead of the root directory, it will be http://127.0.0.1:5000/my_foist_template
+
+Q2: What is the significance of each argument? Simplest, most concise answer best.
+    render_template( 'model_tmplt.html', foo="fooooo", collection=coll)
+    1st argument - sets the template that app route returns
+    2nd argument - sets the title of the page
+    3rd argument - sets the collection of numbers that will be printed out
+
+
+DISCO:
+ - `import render_template` is the jinja engine which, hence its name, renders the templates we create
+ - "No hablo queso!" Prints in the root directory, as predicted
+ - the URL for the "test_tmplt" page will most likely be "<localhost>/my_foist_template"
+ - first arg of `render_template` takes the template that we want to render
+ - following args are just vars in the template we want to pass in values for
 
 QCC:
-
-"render_template" ... what it do?
-jinja for loop??!!
-can we create our own templates and load them in our own specified URLs??
+ - "render_template" ... what it do?
+ - jinja for loop??!!
+ - can we create our own templates and load them in our own specified URLs??
