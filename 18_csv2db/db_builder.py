@@ -22,12 +22,37 @@ with open("students.csv", "r") as file:
         # compiles all the different key-value pairs into one dictionary
         list_dict.append(row)
 
-print(list_dict)
+##print(list_dict)
 #==========================================================
 
-#c.execute("CREATE TABLE students(name TEXT, age INTEGER, id INTEGER PRIMARY KEY)")
-c.execute("INSERT INTO students VALUES('bob', 20, 1)")
-# < < < INSERT YOUR TEAM'S POPULATE-THE-DB CODE HERE > > >
+c.execute("CREATE TABLE students(name TEXT, age INTEGER, id INTEGER PRIMARY KEY)")
+for i in list_dict:
+    ##print(i)
+    ##print(i['age'], i['name'], i['id'])
+   
+    # trying .format
+    c.execute("INSERT INTO students VALUES('{}', '{}', '{}')".format(i['age'], i['name'], i['id']))
+
+    # trying f strings
+    # did not work and we were confused about why
+    # c.execute(f"INSERT INTO students VALUES('{i['age']}', '{i['name']}', '{i['id']}')")
+    
+
+# SECOND FILE -> COURSES
+with open("courses.csv", "r") as file2:
+    reader = csv.DictReader(file2)
+    list_dict2 = []
+
+
+    for row in reader:
+        # print(row)
+        # compiles all the different key-value pairs into one dictionary
+        list_dict2.append(row)
+
+c.execute("CREATE TABLE courses(code TEXT, mark INTEGER, id INTEGER)")
+
+for i in list_dict2:
+    c.execute("INSERT INTO courses VALUES('{}', '{}', '{}')".format(i['code'], i['mark'], i['id']))
 
 
 command = ""          # test SQL stmt in sqlite3 shell, save as string
