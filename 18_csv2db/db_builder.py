@@ -1,7 +1,7 @@
 #Timmy, Dini, and Bob's Adventures: Samantha Hua, Anjini Katari, Emerson Gelobter SoftDev 
 #K18: (Python+SQLite)3: A Mare Widge Made in Hebben
 #2022-10-24 
-#time spent: 1.0hrs'''
+#time spent: 1.0hrs
 #SoftDev
 #skeleton/stub :: SQLITE3 BASICS
 #Oct 2022
