@@ -1,7 +1,7 @@
-#Timmy, Dini, and Bob's Adventures: Samantha Hua, Anjini Katari, Emerson Gelobter SoftDev 
-#K18: (Python+SQLite)3: A Mare Widge Made in Hebben
-#2022-10-24 
-#time spent: 1.0hrs
+'''Timmy, Dini, and Bob's Adventures: Samantha Hua, Anjini Katari, Emerson Gelobter
+SoftDev K17:
+Shell Game 2022-10-24
+time spent: 1.0hrs'''
 #SoftDev
 #skeleton/stub :: SQLITE3 BASICS
 #Oct 2022
@@ -32,14 +32,14 @@ c.execute("CREATE TABLE students(name TEXT, age INTEGER, id INTEGER PRIMARY KEY)
 for i in list_dict:
     ##print(i)
     ##print(i['age'], i['name'], i['id'])
-   
+
     # trying .format
     c.execute("INSERT INTO students VALUES('{}', '{}', '{}')".format(i['age'], i['name'], i['id']))
 
     # trying f strings
     # did not work and we were confused about why
     # c.execute(f"INSERT INTO students VALUES('{i['age']}', '{i['name']}', '{i['id']}')")
-    
+
 
 # SECOND FILE -> COURSES
 with open("courses.csv", "r") as file2:
