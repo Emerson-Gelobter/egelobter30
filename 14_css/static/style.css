@@ -1,0 +1,45 @@
+/*
+Timmy, Bobby, and Dini's Adventures: Samantha Hua, Emerson Gelobter and Anjini Katari
+SoftDev
+K14 -- Serving Looks -- eyedropper linking html to app
+2022-10-19
+time spent: .2hrs
+*/
+
+h1 {
+    text-align: center;
+    background: #bebebe;
+    color: white;
+    margin-bottom: 0;
+}
+
+.list {
+    color: #dcdccd;
+}
+
+.main-content {
+    display: flex;
+    background-color: #767676;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.left-col {
+    margin: .5%;
+    flex: 1;
+}
+
+.right-col {
+    flex: 4;
+}
+
+body {
+    background: #666666;
+}
+
+footer {
+    padding: 1%;
+    background-color: #565656;
+    text-align: right;
+    color: #767676;
+}
