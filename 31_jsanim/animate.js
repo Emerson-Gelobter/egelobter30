@@ -1,4 +1,4 @@
-// Team Gelding :: Daniel Liu + Emerson Gelobter
+// Team Gelding :: Aden Garbutt + Emerson Gelobter
 // SoftDev pd7
 // K31 -- JS PAINT PAINT PAINT!
 // 2023-04-25t
